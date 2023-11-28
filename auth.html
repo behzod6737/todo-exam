@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Login/Signup</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/auth.css">
+</head>
+
+<body class="auth-body auth-body--sign-up">
+  <div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+  <form class="sign-up">
+    <h3 class="sign-up__title">Sign Up Here</h3>
+
+    <label for="username">Username</label>
+    <input class="sign-up__user-name" type="text" placeholder="Username" id="username">
+
+    <label for="password">Password</label>
+    <input class="sign-up__user-password" type="password" placeholder="Password" id="password">
+
+    <button class="sign-up__btn">Sign Up</button>
+    <a class="sign-up__link auth-link" href="#">Already have an account ?</a>
+  </form>
+  
+  <form class="sign-in">
+    <h3 class="sign-in__title">Sign In Here</h3>
+    
+    <label for="username">Username</label>
+    <input class="sign-in__user-name" type="text" placeholder="Username" id="username">
+    
+    <label for="password">Password</label>
+    <input class="sign-in__user-password" type="password" placeholder="Password" id="password">
+    
+    <button class="sign-in__btn">Sign In</button>
+    <a class="sign-in__link auth-link" href="#">I don't have an account</a>
+  </form>
+
+  <script src="js/auth.js"></script>
+</body>
+
+</html>

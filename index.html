@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo list</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <form class="add-todo" action="#" method="post">
+      <input class="add-todo__input" type="text" name="new_todo" placeholder="New todo">
+      <button class="add-todo__btn" type="submit">Add todo <i class="fa-solid fa-plus"></i></button>
+    </form>
+    <div class="todo">
+      <ul class="todo__list fa-ul">
+        <li class="todo__item">
+          <label>
+            <input class="todo__checkbox" type="checkbox" name="todo_name" data-id="id">
+            <span class="todo__text">Lorem ipsum dolor sit amet.</span>
+          </label>
+          <button class="todo__btn" type="button" data-id="id"><i class="fa-solid fa-trash-can"></i></button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <script src="https://kit.fontawesome.com/f6c14b5c79.js" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
